@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robo/robo.egg-info
+writing ../../build/robo/robo.egg-info/PKG-INFO
+writing dependency_links to ../../build/robo/robo.egg-info/dependency_links.txt
+writing requirements to ../../build/robo/robo.egg-info/requires.txt
+writing top-level names to ../../build/robo/robo.egg-info/top_level.txt
+writing manifest file '../../build/robo/robo.egg-info/SOURCES.txt'
+reading manifest file '../../build/robo/robo.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robo/robo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wateen/Desktop/ROS_project/build/robo/build
+creating /home/wateen/Desktop/ROS_project/build/robo/build/lib
+creating /home/wateen/Desktop/ROS_project/build/robo/build/lib/robo
+copying robo/__init__.py -> /home/wateen/Desktop/ROS_project/build/robo/build/lib/robo
+running install
+running install_lib
+creating /home/wateen/Desktop/ROS_project/install/robo/lib/python3.12/site-packages/robo
+copying /home/wateen/Desktop/ROS_project/build/robo/build/lib/robo/__init__.py -> /home/wateen/Desktop/ROS_project/install/robo/lib/python3.12/site-packages/robo
+byte-compiling /home/wateen/Desktop/ROS_project/install/robo/lib/python3.12/site-packages/robo/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/wateen/Desktop/ROS_project/install/robo/share/ament_index
+creating /home/wateen/Desktop/ROS_project/install/robo/share/ament_index/resource_index
+creating /home/wateen/Desktop/ROS_project/install/robo/share/ament_index/resource_index/packages
+copying resource/robo -> /home/wateen/Desktop/ROS_project/install/robo/share/ament_index/resource_index/packages
+copying package.xml -> /home/wateen/Desktop/ROS_project/install/robo/share/robo
+creating /home/wateen/Desktop/ROS_project/install/robo/share/robo/launch
+copying launch/spawn.launch.py -> /home/wateen/Desktop/ROS_project/install/robo/share/robo/launch
+creating /home/wateen/Desktop/ROS_project/install/robo/share/robo/urdf
+copying urdf/robot.urdf -> /home/wateen/Desktop/ROS_project/install/robo/share/robo/urdf
+running install_egg_info
+Copying ../../build/robo/robo.egg-info to /home/wateen/Desktop/ROS_project/install/robo/lib/python3.12/site-packages/robo-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/wateen/Desktop/ROS_project/build/robo/install.log'
