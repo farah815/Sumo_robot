@@ -121,7 +121,7 @@ ros2 topic echo /camera/image_raw
 
 ### Gazebo Simulation Movement
 * **Simulation Video:**<br>
-  <video src="submission/smulation.mp4" controls="controls" style="max-width: 100%;"></video>
+  [🎬 Click here to watch Simulation Video (smulation.mp4)](submission/smulation.mp4)
 
 * **Manual Movement:**<br>
   ![Manual Movement](submission/manual_movement.png)
@@ -141,7 +141,7 @@ ros2 topic echo /camera/image_raw
 
 ### Live Sensor Streams
 * **Live Camera Stream Video:**<br>
-  <video src="submission/live%20camera%20stream/2026-07-27%2020-09-18.mkv" controls="controls" style="max-width: 100%;"></video>
+  [🎬 Click here to watch Live Camera Stream (2026-07-27 20-09-18.mkv)](<submission/live camera stream/2026-07-27 20-09-18.mkv>)
 
 ---
 
