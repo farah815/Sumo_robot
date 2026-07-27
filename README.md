@@ -119,13 +119,18 @@ ros2 topic echo /camera/image_raw
 
 ### Gazebo Simulation Movement
 * **Simulation Video:** [smulation.mp4](submission/smulation.mp4)
-* **Manual Movement:** ![Manual Movement](submission/manual_movement.png)
-* **Continuous Movement:** ![Continuous Movement](submission/continous_movement.png)
+* **Manual Movement:** 
+  ![Manual Movement](submission/manual_movement.png)
+* **Continuous Movement:** 
+  ![Continuous Movement](submission/continous_movement.png)
 
 ### RViz2 Sensor Visualization
-* **LiDAR View:** ![LiDAR in RViz](<submission/Rviz simulation/lidar_rviz.png>)
-* **Camera View:** ![Camera in RViz](<submission/Rviz simulation/image_rviz.png>)
-* **TF Frames in RViz:** ![TF in RViz](<submission/Rviz simulation/TF_frames_rviz.png>)
+* **LiDAR View:** 
+  ![LiDAR in RViz](<submission/Rviz simulation/lidar_rviz.png>)
+* **Camera View:** 
+  ![Camera in RViz](<submission/Rviz simulation/image_rviz.png>)
+* **TF Frames in RViz:** 
+  ![TF in RViz](<submission/Rviz simulation/TF_frames_rviz.png>)
 
 ### Live Sensor Streams
 * **Live Camera Stream Video:** [2026-07-27 20-09-18.mkv](<submission/live camera stream/2026-07-27 20-09-18.mkv>)
@@ -133,10 +138,25 @@ ros2 topic echo /camera/image_raw
 ---
 
 ## 📡 8. Important ROS 2 Topics & Frames Evidence
-* **Active Topics List:** [topic_list.png](submission/topic_list.png)
-* **TF Frames Tree:** [frames_2026-07-27_22.14.23.pdf](submission/frames_2026-07-27_22.14.23.pdf) and [tf_topic.png](submission/tf_topic.png)
-* **Odometry Topic (`/odom`):** [odom_topic.png](submission/odom_topic.png)
-* **Joint States Topic (`/joint_states`):** [joint_states_topic.png](submission/joint_states_topic.png)
-* **LiDAR Scan Topic (`/scan`):** [scan_topic.png](submission/scan_topic.png)
-* **IMU Topic (`/imu`):** [imu_topic.png](submission/imu_topic.png)
-* **Camera Raw Topic (`/camera/image_raw`):** [camera_image_raw_topic.png](submission/camera_image_raw_topic.png)
+
+* **Active Topics List:** 
+  ![topic_list.png](submission/topic_list.png)
+
+* **TF Frames Tree:** 
+  [frames_2026-07-27_22.14.23.pdf](submission/frames_2026-07-27_22.14.23.pdf) (Click to view PDF) 
+  ![tf_topic.png](submission/tf_topic.png)
+
+* **Odometry Topic (`/odom`):** 
+  ![odom_topic.png](submission/odom_topic.png)
+
+* **Joint States Topic (`/joint_states`):** 
+  ![joint_states_topic.png](submission/joint_states_topic.png)
+
+* **LiDAR Scan Topic (`/scan`):** 
+  ![scan_topic.png](submission/scan_topic.png)
+
+* **IMU Topic (`/imu`):** 
+  ![imu_topic.png](submission/imu_topic.png)
+
+* **Camera Raw Topic (`/camera/image_raw`):** 
+  ![camera_image_raw_topic.png](submission/camera_image_raw_topic.png)
