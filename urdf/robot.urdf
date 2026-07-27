@@ -30,7 +30,7 @@
         </collision>
       <inertial>
          <origin xyz="0.00 0.05 -0.03" rpy="0 0 0"/>
-         <mass value="10.26"/>
+         <mass value="2"/>
          <inertia ixx="0.20" ixy="0.0" ixz="0.0" iyy="0.28" iyz="-0.04" izz="0.15"/>
       </inertial>
     </link>
@@ -195,7 +195,7 @@
       <joint name="lidar_joint" type="fixed">
         <parent link="body"/>
         <child link="lidar_link"/>
-        <origin xyz="0.000210 0.20 -0.174" rpy="0 0 0"/>
+        <origin xyz="0.000210 0.20 -0.174" rpy="1.5708 0 0"/>
       </joint>
 
     <link name="caster_link">
@@ -240,16 +240,16 @@
     </joint>
 
     <gazebo reference="right_wheel">
-        <mu1 value="200.0"/>
-        <mu2 value="100.0"/>
+        <mu1 value="1.0"/>
+        <mu2 value="1.0"/>
         <kp value="10000000.0"/> 
         <kd value="1.0"/>
         <material>Gazebo/Black</material>
     </gazebo>
 
     <gazebo reference="left_wheel">
-        <mu1 value="200.0"/>
-        <mu2 value="100.0"/>
+        <mu1 value="1.0"/>
+        <mu2 value="1.0"/>
         <kp value="10000000.0"/>
         <kd value="1.0"/>
         <material>Gazebo/Black</material>
@@ -342,6 +342,9 @@
       <render_engine>ogre2</render_engine>
     </plugin>
   </gazebo>
+  
+  
+   <gazebo>
    <plugin
         filename="gz-sim-diff-drive-system"
         name="gz::sim::systems::DiffDrive">
@@ -349,7 +352,7 @@
       <left_joint>left_wheel_joint</left_joint>
       <right_joint>right_wheel_joint</right_joint>
 
-      <wheel_separation>0.064</wheel_separation>
+      <wheel_separation>0.208058</wheel_separation>
       <wheel_radius>0.0425</wheel_radius>
 
       <topic>cmd_vel</topic>
@@ -361,6 +364,19 @@
       <odom_publish_frequency>30</odom_publish_frequency>
 
     </plugin>
+</gazebo>
+
+<gazebo>
+  <plugin
+      filename="gz-sim-joint-state-publisher-system"
+      name="gz::sim::systems::JointStatePublisher">
+
+    <joint_name>left_wheel_joint</joint_name>
+    <joint_name>right_wheel_joint</joint_name>
+
+  </plugin>
+</gazebo>
+
 
 
 </robot>
