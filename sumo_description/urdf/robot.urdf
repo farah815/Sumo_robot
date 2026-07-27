@@ -82,7 +82,6 @@
         <child link="cutting_wheel"/>
         <origin xyz="0.003 0.08986 0.09845" rpy="-1.0472 0 0"/>
         <axis xyz="0 0 1"/>
-        <!-- عزم واقعي للأسلحة وسرعة دوران جنونية للمنشار -->
         <limit effort="20.0" velocity="100.0"/>
     </joint>
 
@@ -112,7 +111,6 @@
         <child link="right_wheel"/>
         <origin xyz="0.104029 0.031999 -0.063999" rpy="0 0 0"/>
         <axis xyz="1 0 0"/>
-        <!-- عزم قوي وسرعة منطقية لروبوت السومو -->
         <limit effort="10.0" velocity="50.0"/>
     </joint>
 
@@ -142,7 +140,6 @@
         <child link="left_wheel"/>
         <origin xyz="-0.104029 0.031999 -0.063999" rpy="0 0 0"/>
         <axis xyz="1 0 0"/>
-        <!-- عزم قوي وسرعة منطقية لروبوت السومو -->
         <limit effort="10.0" velocity="50.0"/>
     </joint>
 

@@ -1,0 +1,16 @@
+ros2 launch ros_gz_sim gz_sim.launch.py gz_args:=empty.sdf      "to open a an empty world"
+colcon build  "to build the workspace"
+source install/setup.bash    "to source the install"
+ros2 launch robo spawn.launch.py    "to use the launch file"
+ros2 launch urdf_tutorial display.launch.py model:="/home/wateen/Desktop/robot_ws/src/robo/urdf/robot.urdf"   "to open our urdf file in rviz"
+ros2 run rqt_image_view rqt_image_view   "to see the camera stream"
+ros2 topic list    
+ros2 topic echo /odom
+ros2 topic echp /tf
+ros2 topic echo /tf
+ros2 run tf2_tools view_frames  "It records the active ROS 2 transform frames (/tf), generates a visual tree diagram, and saves it as a (frames.pdf) file"
+ros2 topic echo joint_states
+ros2 topic echo /scan
+ros2 topic echo /imu
+ros2 topic echo /camera/image_raw
+
