@@ -37,7 +37,7 @@ The robot is driven by two GGP DC gear motors (15 kg·cm torque each) in a diffe
 * **LiDAR Sensor:** Mass = 0.05 kg
 
 ### 🔗 CAD Files
-The complete SolidWorks assembly and STL files can be accessed here:
+The complete SolidWorks assembly and STL files can be accessed here:<br>
 **[Sumo Robot CAD Files - Google Drive](https://drive.google.com/drive/folders/1g_0e8HOjB4JpKE2sZYNPQlGbvjTNRJ2n)**
 
 ---
@@ -115,48 +115,56 @@ ros2 topic echo /camera/image_raw
 ## 📸 7. Simulation & Visualization Media
 
 ### Mechanical Assembly
+<br>
+
 ![Assembly Design](submission/mechanical/assembly.jpeg)
 
 ### Gazebo Simulation Movement
-* **Simulation Video:** [smulation.mp4](submission/smulation.mp4)
-* **Manual Movement:** 
+* **Simulation Video:**<br>
+  <video src="submission/smulation.mp4" controls="controls" style="max-width: 100%;"></video>
+
+* **Manual Movement:**<br>
   ![Manual Movement](submission/manual_movement.png)
-* **Continuous Movement:** 
+
+* **Continuous Movement:**<br>
   ![Continuous Movement](submission/continous_movement.png)
 
 ### RViz2 Sensor Visualization
-* **LiDAR View:** 
+* **LiDAR View:**<br>
   ![LiDAR in RViz](<submission/Rviz simulation/lidar_rviz.png>)
-* **Camera View:** 
+
+* **Camera View:**<br>
   ![Camera in RViz](<submission/Rviz simulation/image_rviz.png>)
-* **TF Frames in RViz:** 
+
+* **TF Frames in RViz:**<br>
   ![TF in RViz](<submission/Rviz simulation/TF_frames_rviz.png>)
 
 ### Live Sensor Streams
-* **Live Camera Stream Video:** [2026-07-27 20-09-18.mkv](<submission/live camera stream/2026-07-27 20-09-18.mkv>)
+* **Live Camera Stream Video:**<br>
+  <video src="submission/live%20camera%20stream/2026-07-27%2020-09-18.mkv" controls="controls" style="max-width: 100%;"></video>
 
 ---
 
 ## 📡 8. Important ROS 2 Topics & Frames Evidence
 
-* **Active Topics List:** 
+* **Active Topics List:**<br>
   ![topic_list.png](submission/topic_list.png)
 
-* **TF Frames Tree:** 
-  [frames_2026-07-27_22.14.23.pdf](submission/frames_2026-07-27_22.14.23.pdf) (Click to view PDF) 
+* **TF Frames Tree:**<br>
+  [frames_2026-07-27_22.14.23.pdf](submission/frames_2026-07-27_22.14.23.pdf) (Click to view PDF)<br>
   ![tf_topic.png](submission/tf_topic.png)
 
-* **Odometry Topic (`/odom`):** 
+* **Odometry Topic (`/odom`):**<br>
   ![odom_topic.png](submission/odom_topic.png)
 
-* **Joint States Topic (`/joint_states`):** 
+* **Joint States Topic (`/joint_states`):**<br>
   ![joint_states_topic.png](submission/joint_states_topic.png)
 
-* **LiDAR Scan Topic (`/scan`):** 
+* **LiDAR Scan Topic (`/scan`):**<br>
   ![scan_topic.png](submission/scan_topic.png)
 
-* **IMU Topic (`/imu`):** 
+* **IMU Topic (`/imu`):**<br>
   ![imu_topic.png](submission/imu_topic.png)
 
-* **Camera Raw Topic (`/camera/image_raw`):** 
+* **Camera Raw Topic (`/camera/image_raw`):**<br>
   ![camera_image_raw_topic.png](submission/camera_image_raw_topic.png)
